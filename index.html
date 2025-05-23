@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Automation Shop - Your Automation Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="agrobot-favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Agrobot/Kittikoon Shop</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a class="bot-nav-tab" href="#playpixels-group">PlayPixelsXyz</a></li>
+                <li><a class="bot-nav-tab" href="#sunflowerland-group">SunflowerLand</a></li>
+                <li><a class="bot-nav-tab" href="#fishingfrenzy-group">FishingFrenzy</a></li>
+                <li>
+                  <select id="lang-select" style="margin-left:1rem; border-radius:8px; padding:0.3rem 0.7rem; background:#232837; color:#00cfff; font-weight:600; border:1.5px solid #00cfff;">
+                    <option value="en">English</option>
+                    <option value="th">ไทย</option>
+                  </select>
+                </li>
+                <li>
+                  <a href="https://discord.gg/FZ4SAx38Rx" target="_blank" rel="noopener" class="discord-nav-link" title="Join our Discord" style="display:flex;align-items:center;gap:6px;padding:0.3rem 0.8rem;">
+                    <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#7289da"/><path d="M24.5 23c-1.2-1.1-2.3-2-3.3-2.7.3-.1.6-.3.8-.5 2.2-.6 3.1-2.1 3.1-2.1 0-4.5-2-8.1-2-8.1-2-1.5-3.9-1.5-3.9-1.5l-.2.2c2.4.7 3.5 1.7 3.5 1.7-1.5-.8-2.9-1.2-4.2-1.2s-2.7.4-4.2 1.2c0 0 1.1-1 3.5-1.7l-.2-.2s-1.9 0-3.9 1.5c0 0-2 3.6-2 8.1 0 0 .9 1.5 3.1 2.1.2.2.5.4.8.5-1 .7-2.1 1.6-3.3 2.7 0 0 1.4 1.1 5.4 1.1s5.4-1.1 5.4-1.1zM13.2 18.2c-.7 0-1.3-.7-1.3-1.5s.6-1.5 1.3-1.5c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5zm5.6 0c-.7 0-1.3-.7-1.3-1.5s.6-1.5 1.3-1.5c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5z" fill="#fff"/></svg>
+                    <span style="color:#7289da;font-weight:600;">Discord</span>
+                  </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero" id="vanta-hero">
+            <div class="vanta-overlay"></div>
+            <h1>Automate Your Tasks with Our Smart Bots</h1>
+            <p>Efficient, Reliable, and Customizable Automation Solutions</p>
+            <button class="live-chat-btn" onclick="Tawk_API.maximize();">
+                <svg style="vertical-align:middle;margin-right:8px;" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                Start Live Chat
+            </button>
+            <button class="discord-hero-btn" onclick="window.open('https://discord.gg/FZ4SAx38Rx','_blank')" style="margin-top:1.2rem;display:inline-flex;align-items:center;gap:8px;background:#7289da;color:#fff;font-weight:700;font-size:1.1rem;padding:1rem 2.2rem;border:none;border-radius:14px;box-shadow:0 2px 18px #7289da33;cursor:pointer;">
+              <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#7289da"/><path d="M24.5 23c-1.2-1.1-2.3-2-3.3-2.7.3-.1.6-.3.8-.5 2.2-.6 3.1-2.1 3.1-2.1 0-4.5-2-8.1-2-8.1-2-1.5-3.9-1.5-3.9-1.5l-.2.2c2.4.7 3.5 1.7 3.5 1.7-1.5-.8-2.9-1.2-4.2-1.2s-2.7.4-4.2 1.2c0 0 1.1-1 3.5-1.7l-.2-.2s-1.9 0-3.9 1.5c0 0-2 3.6-2 8.1 0 0 .9 1.5 3.1 2.1.2.2.5.4.8.5-1 .7-2.1 1.6-3.3 2.7 0 0 1.4 1.1 5.4 1.1s5.4-1.1 5.4-1.1zM13.2 18.2c-.7 0-1.3-.7-1.3-1.5s.6-1.5 1.3-1.5c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5zm5.6 0c-.7 0-1.3-.7-1.3-1.5s.6-1.5 1.3-1.5c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5z" fill="#fff"/></svg>
+              Join our Discord
+            </button>
+        </section>
+
+        <!-- BEGIN: Game Bot Offerings Section -->
+        <section id="game-bots" style="margin-top: 2rem;">
+            <div class="bot-tabs-content">
+                <div class="bot-tab-group" id="playpixels-group">
+                    <div class="bot-tab-label">PlayPixelsXyz Bots</div>
+                    <div class="bot-offer-grid">
+                        <div class="bot-offer-card card-playpixels">
+                            <div class="bot-offer-title">PlayPixelsXyz BOT Free Version</div>
+                            <ul class="bot-offer-features">
+                                <li>AutoFarm</li>
+                                <li>AutoMine</li>
+                                <li>AutoCraft</li>
+                                <li>AutoBuy&Sell</li>
+                                <li>AutoTaskBoard</li>
+                                <li>AutoQuest</li>
+                            </ul>
+                            <div class="bot-offer-meta">FREE</div>
+                        </div>
+                        <div class="bot-offer-card card-playpixels">
+                            <div class="bot-offer-title">PlayPixelsXyz BOT Premium Version</div>
+                            <ul class="bot-offer-features">
+                                <li>AutoFarm</li>
+                                <li>AutoMine</li>
+                                <li>AutoCraft</li>
+                                <li>AutoBuy&Sell</li>
+                                <li>AutoTaskBoard</li>
+                                <li>AutoQuest</li>
+                                <li>Auto Reputation</li>
+                            </ul>
+                            <div class="bot-offer-meta">PRICE : $22</div>
+                        </div>
+                        <div class="bot-offer-card card-playpixels">
+                            <div class="bot-offer-title">PlayPixelsXyz BOT Exclusive Version</div>
+                            <ul class="bot-offer-features">
+                                <li>AutoFarm</li>
+                                <li>AutoMine</li>
+                                <li>AutoCraft</li>
+                                <li>AutoBuy&Sell</li>
+                                <li>AutoTaskBoard</li>
+                                <li>AutoQuest</li>
+                                <li>Auto Reputation</li>
+                                <li>Teleport On/Off</li>
+                                <li>And more perks!</li>
+                            </ul>
+                            <div class="bot-offer-note">FREE 1 LEVEL 601+ ACCOUNT - FAST ROI (NON VIP)<br>UNLIMITED ACCOUNTS CAN RUN!<br>Run as many accounts as your PC can!</div><br>
+                            <div class="bot-offer-meta">PRICE : $35</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bot-tab-group" id="sunflowerland-group">
+                    <div class="bot-tab-label">SunflowerLand Bots</div>
+                    <div class="bot-offer-grid">
+                        <div class="bot-offer-card card-sunflowerland">
+                            <div class="bot-offer-title">SunFlowerLand BOT Free Version</div>
+                            <ul class="bot-offer-features">
+                                <li>AutoFarm</li>
+                                <li>AutoMine</li>
+                                <li>AutoCutTree</li>
+                                <li>AutoTeleport</li>
+                            </ul>
+                            <div class="bot-offer-meta">FREE</div>
+                        </div>
+                        <div class="bot-offer-card card-sunflowerland">
+                            <div class="bot-offer-title">SunFlowerLand BOT Exclusive Version</div>
+                            <ul class="bot-offer-features">
+                                <li>AutoPlant</li>
+                                <li>AutoSell</li>
+                                <li>AutoBuy</li>
+                                <li>AutoCutTree</li>
+                                <li>AutoPit/Cook</li>
+                                <li>AutoTools</li>
+                                <li>AutoCraft</li>
+                                <li>AutoBuild</li>
+                                <li>AutoUpgrade</li>
+                                <li>AutoDeliver</li>
+                                <li>AutoTimeShard</li>
+                                <li>AutoEarnFlower (Lvl 10 Req)</li>
+                                <li>AutoFarmCoins</li>
+                                <li>AutoRestock</li>
+                                <li>MultiAccount</li>
+                            </ul>
+                            <div class="bot-offer-meta">$35</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bot-tab-group" id="fishingfrenzy-group">
+                    <div class="bot-tab-label">FishingFrenzy Bots</div>
+                    <div class="bot-offer-grid">
+                        <div class="bot-offer-card card-fishingfrenzy">
+                            <div class="bot-offer-title">FishingFrenzy BOT Free Version</div>
+                            <ul class="bot-offer-features">
+                                <li>AutoFish</li>
+                                <li>AutoReferral</li>
+                                <li>Auto5x</li>
+                                <li>AutoLevelUp</li>
+                            </ul>
+                            <div class="bot-offer-meta">FREE</div>
+                        </div>
+                        <div class="bot-offer-card card-fishingfrenzy">
+                            <div class="bot-offer-title">FishingFrenzy BOT Exclusive Version</div>
+                            <ul class="bot-offer-features">
+                                <li>AutoFish</li>
+                                <li>AutoReferral</li>
+                                <li>Auto5x</li>
+                                <li>AutoLevelUp</li>
+                                <li>AutoQuest</li>
+                                <li>AutoCook</li>
+                                <li>AutoFarm</li>
+                                <li>AutoUpgrades</li>
+                                <li>AutoFarmCampaign</li>
+                                <li>AutoAntiAFK</li>
+                                <li>And More</li>
+                            </ul>
+                            <div class="bot-offer-meta">$35</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: Game Bot Offerings Section -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We provide smart automation solutions to help businesses streamline their operations.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#playpixels-group">PlayPixelsXyz</a></li>
+                    <li><a href="#sunflowerland-group">SunflowerLand</a></li>
+                    <li><a href="#fishingfrenzy-group">FishingFrenzy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support Portal</a></li>
+                    <li>
+                      <a href="https://discord.gg/FZ4SAx38Rx" target="_blank" rel="noopener" style="color:#7289da;font-weight:600;display:flex;align-items:center;gap:6px;">
+                        <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#7289da"/><path d="M24.5 23c-1.2-1.1-2.3-2-3.3-2.7.3-.1.6-.3.8-.5 2.2-.6 3.1-2.1 3.1-2.1 0-4.5-2-8.1-2-8.1-2-1.5-3.9-1.5-3.9-1.5l-.2.2c2.4.7 3.5 1.7 3.5 1.7-1.5-.8-2.9-1.2-4.2-1.2s-2.7.4-4.2 1.2c0 0 1.1-1 3.5-1.7l-.2-.2s-1.9 0-3.9 1.5c0 0-2 3.6-2 8.1 0 0 .9 1.5 3.1 2.1.2.2.5.4.8.5-1 .7-2.1 1.6-3.3 2.7 0 0 1.4 1.1 5.4 1.1s5.4-1.1 5.4-1.1zM13.2 18.2c-.7 0-1.3-.7-1.3-1.5s.6-1.5 1.3-1.5c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5zm5.6 0c-.7 0-1.3-.7-1.3-1.5s.6-1.5 1.3-1.5c.7 0 1.3.7 1.3 1.5s-.6 1.5-1.3 1.5z" fill="#fff"/></svg>
+                        <span>Join our Discord</span>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Bot Automation Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/683049aa12ae50190a96eef6/1iru9vhbq';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- Add Vanta.js and three.js scripts and initialization before </body> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      VANTA.GLOBE({
+        el: document.querySelector('.hero'),
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 400.00,
+        minWidth: 200.00,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x00cfff,
+        color2: 0x181c24,
+        backgroundColor: 0x181c24,
+        size: 1.2
+      });
+    });
+    </script>
+
+    <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    </style>
+</body>
+
+<script src="script.js"></script>
+</html>
